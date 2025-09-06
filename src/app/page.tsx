@@ -2,29 +2,15 @@
 
 import { useState } from "react";
 import { proposalSections, getSectionById } from "@/lib/proposalContent";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 
 export default function ProposalPage() {
   const [selectedSectionId, setSelectedSectionId] = useState<string>("executive-summary");
   const selectedSection = getSectionById(selectedSectionId);
-
-  const renderMarkdownContent = (content: string) => {
-    // Simple markdown-to-HTML conversion for display
-    return content
-      .replace(/^# (.*$)/gm, '<h1 class="text-3xl font-bold mb-6 text-gray-900">$1</h1>')
-      .replace(/^## (.*$)/gm, '<h2 class="text-2xl font-semibold mb-4 mt-8 text-gray-800">$1</h2>')
-      .replace(/^### (.*$)/gm, '<h3 class="text-xl font-medium mb-3 mt-6 text-gray-700">$1</h3>')
-      .replace(/^\*\*(.*?)\*\*/gm, '<strong class="font-semibold text-gray-900">$1</strong>')
-      .replace(/^\*(.*?)\*/gm, '<em class="italic">$1</em>')
-      .replace(/^- (.*$)/gm, '<li class="ml-4 mb-1">• $1</li>')
-      .replace(/\n\n/g, '</p><p class="mb-4">')
-      .replace(/\n/g, '<br/>')
-      .replace(/^(?!<[h|l|p])(.+)$/gm, '<p class="mb-4">$1</p>');
-  };
 
   return (
     <div className="flex h-screen bg-gray-50">
@@ -123,12 +109,7 @@ export default function ProposalPage() {
             <Card>
               <CardContent className="p-8">
                 {selectedSection && (
-                  <div 
-                    className="prose prose-gray max-w-none"
-                    dangerouslySetInnerHTML={{ 
-                      __html: renderMarkdownContent(selectedSection.content) 
-                    }}
-                  />
+                  <MarkdownRenderer content={selectedSection.content} />
                 )}
               </CardContent>
             </Card>
