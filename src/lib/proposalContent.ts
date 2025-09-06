@@ -772,4 +772,530 @@ This comprehensive implementation plan ensures systematic, risk-managed deployme
 - State Government: ₹8.5 crores
 - District Health Mission: ₹4.0 crores
 
-**International Development (25% - ₹11.5
+**International Development (25% - ₹11.5 crores):**
+- World Bank Health Systems Strengthening: ₹6.0 crores
+- Bill & Melinda Gates Foundation: ₹3.5 crores
+- USAID Digital Health Initiative: ₹2.0 crores
+
+**Private Sector (15% - ₹6.8 crores):**
+- Technology Partners (AWS, Google): ₹3.0 crores
+- Healthcare Industry Partners: ₹2.3 crores
+- Impact Investment Funds: ₹1.5 crores
+
+This comprehensive financial framework ensures project viability while maximizing return on investment through measurable health and economic benefits.`
+  },
+  {
+    id: "risk-analysis",
+    title: "Risk Analysis and Mitigation Strategy",
+    content: `# Risk Analysis and Mitigation Strategy
+
+## Risk Assessment Framework
+
+The project employs a comprehensive risk management approach using a 5x5 risk matrix (Probability × Impact) to evaluate and prioritize risks across four main categories: Technical, Operational, Social, and Financial.
+
+## Technical Risks
+
+### T1: Intermittent Connectivity Issues
+**Risk Description**: Poor cellular and internet connectivity in remote areas affecting data transmission and system functionality.
+**Probability**: 4 (High) | **Impact**: 4 (High) | **Risk Score**: 16 (High)
+
+**Mitigation Strategies:**
+- Implement robust offline-first architecture
+- Multi-network connectivity approach (2G/3G/4G fallback)
+- Local data storage with batch synchronization
+- Manual backup procedures via SMS for critical alerts
+
+### T2: Sensor Hardware Failure
+**Risk Description**: IoT sensors may fail due to harsh environmental conditions, theft, or vandalism.
+**Probability**: 3 (Medium) | **Impact**: 3 (Medium) | **Risk Score**: 9 (Medium)
+
+**Mitigation Strategies:**
+- Redundant sensor deployment in critical areas
+- Tamper-proof and weatherproof enclosures
+- Community ownership and maintenance programs
+- Rapid replacement protocols with local inventory
+
+### T3: Data Security Breaches
+**Risk Description**: Unauthorized access to sensitive health data could compromise patient privacy and system integrity.
+**Probability**: 2 (Low) | **Impact**: 5 (Severe) | **Risk Score**: 10 (Medium)
+
+**Mitigation Strategies:**
+- End-to-end encryption for all data transmission
+- Multi-factor authentication for system access
+- Regular security audits and penetration testing
+- Compliance with India's DPDP Act 2023
+
+## Operational Risks
+
+### O1: Low User Adoption by ASHA Workers
+**Risk Description**: ASHA workers may resist adopting new technology due to digital literacy barriers or workflow disruption.
+**Probability**: 3 (Medium) | **Impact**: 4 (High) | **Risk Score**: 12 (Medium)
+
+**Mitigation Strategies:**
+- Comprehensive training programs with local language support
+- Incentive alignment with existing payment structures
+- Peer champion programs and community leaders engagement
+- Gradual rollout with continuous feedback integration
+
+### O2: Data Quality Issues
+**Risk Description**: Incomplete or inaccurate data entry could compromise system effectiveness and decision-making.
+**Probability**: 3 (Medium) | **Impact**: 3 (Medium) | **Risk Score**: 9 (Medium)
+
+**Mitigation Strategies:**
+- Built-in data validation and quality checks
+- Regular training and refresher sessions
+- Automated data quality monitoring and alerts
+- Incentive structures tied to data quality metrics
+
+## Social Risks
+
+### S1: Community Resistance to Data Collection
+**Risk Description**: Communities may be suspicious of health data collection and privacy concerns.
+**Probability**: 2 (Low) | **Impact**: 4 (High) | **Risk Score**: 8 (Medium)
+
+**Mitigation Strategies:**
+- Transparent communication about data use and benefits
+- Community consent processes and opt-out mechanisms
+- Local leadership engagement and endorsement
+- Regular community meetings and feedback sessions
+
+### S2: Cultural and Language Barriers
+**Risk Description**: Diverse ethnic communities may face challenges in system adoption due to cultural differences.
+**Probability**: 2 (Low) | **Impact**: 3 (Medium) | **Risk Score**: 6 (Low)
+
+**Mitigation Strategies:**
+- Multi-language interface development
+- Cultural sensitivity training for field teams
+- Community-specific customization of user interfaces
+- Local community liaison programs
+
+## Financial Risks
+
+### F1: Funding Delays or Shortfalls
+**Risk Description**: Government budget constraints or donor funding delays could impact project timeline.
+**Probability**: 3 (Medium) | **Impact**: 5 (Severe) | **Risk Score**: 15 (High)
+
+**Mitigation Strategies:**
+- Diversified funding sources across government, donors, and private sector
+- Milestone-based funding releases with clear deliverables
+- Contingency planning for reduced scope scenarios
+- Alternative funding mechanisms and partnerships
+
+### F2: Cost Overruns
+**Risk Description**: Unexpected costs due to technical challenges or scope changes could exceed budget.
+**Probability**: 3 (Medium) | **Impact**: 3 (Medium) | **Risk Score**: 9 (Medium)
+
+**Mitigation Strategies:**
+- Detailed cost estimation with 15% contingency buffer
+- Regular budget monitoring and variance analysis
+- Change management processes for scope modifications
+- Fixed-price contracts with vendors where possible
+
+## Risk Monitoring and Response
+
+### Risk Monitoring Framework
+- **Weekly**: Technical performance and system uptime monitoring
+- **Monthly**: User adoption and data quality assessment
+- **Quarterly**: Comprehensive risk assessment and mitigation review
+- **Annually**: Strategic risk evaluation and framework updates
+
+### Escalation Procedures
+- **Low Risk (1-6)**: Managed by project team
+- **Medium Risk (7-12)**: Escalated to project steering committee
+- **High Risk (13-25)**: Immediate escalation to executive leadership
+
+This comprehensive risk management framework ensures proactive identification and mitigation of potential project threats while maintaining focus on successful delivery.`
+  },
+  {
+    id: "team-governance",
+    title: "Team Structure and Governance",
+    content: `# Team Structure and Governance
+
+## Organizational Structure
+
+The project employs a matrix organizational structure that combines functional expertise with cross-functional project teams, ensuring both technical excellence and effective project delivery.
+
+## Core Team Roles
+
+### Executive Leadership
+
+**Project Director** - Overall project leadership and stakeholder management
+- PhD in Public Health or related field
+- 15+ years experience in health technology projects
+- Strong government and donor relations
+- Responsibilities: Strategic direction, stakeholder management, policy advocacy
+
+**Technical Director** - Technology strategy and architecture oversight
+- MS/PhD in Computer Science or Engineering
+- 12+ years experience in IoT and health informatics
+- Proven track record in large-scale deployments
+- Responsibilities: Technical architecture, innovation strategy, quality assurance
+
+### Technical Teams
+
+**IoT Engineering Team (5 members)**
+- Lead IoT Engineer: System architecture and sensor integration
+- Sensor Integration Specialists (2): Hardware deployment and maintenance
+- Network Infrastructure Engineers (2): Communication systems and connectivity
+
+**Software Development Team (8 members)**
+- Lead Software Architect: System design and development oversight
+- Mobile App Developers (3): Android application development
+- Web Dashboard Developers (2): Frontend and backend development
+- DevOps Engineers (2): Infrastructure automation and deployment
+
+**Data Science Team (4 members)**
+- Lead Data Scientist: ML model development and validation
+- ML Engineers (2): Algorithm implementation and optimization
+- Data Analysts (1): Statistical analysis and reporting
+
+### Operations Teams
+
+**Field Operations Team (12 members)**
+- Field Operations Manager: Coordination of all field activities
+- Regional Coordinators (3): State-level implementation oversight
+- Training Specialists (4): User training and capacity building
+- Community Liaisons (4): Community engagement and support
+
+**Quality Assurance Team (3 members)**
+- QA Manager: Quality standards and testing protocols
+- Test Engineers (2): System testing and validation
+
+## Governance Model
+
+### Steering Committee
+
+**Composition:**
+- State Health Secretary (Chair)
+- District Collector (Vice Chair)
+- Project Director
+- Technical Director
+- Community Representative
+- Donor Representative
+- Academic Partner Representative
+
+**Responsibilities:**
+- Strategic direction and policy decisions
+- Budget approval and resource allocation
+- Risk escalation and resolution
+- Stakeholder coordination and communication
+- Performance evaluation and course correction
+
+**Meeting Schedule:**
+- Monthly during implementation phases
+- Quarterly during operational phases
+- Emergency meetings as required
+
+### Technical Advisory Board
+
+**Composition:**
+- Public Health Epidemiologist (International expert)
+- IoT Technology Expert (Industry leader)
+- Data Privacy Specialist (Legal expert)
+- Community Health Expert (Local practitioner)
+- Digital Health Policy Expert (Government advisor)
+
+**Responsibilities:**
+- Technical guidance and best practices
+- Quality assurance and standards compliance
+- Innovation recommendations and technology evaluation
+- External validation and peer review
+- Knowledge transfer and capacity building
+
+**Meeting Schedule:**
+- Quarterly review meetings
+- Annual strategic planning sessions
+- Ad-hoc consultations as needed
+
+## Decision-Making Framework
+
+### Authority Matrix
+
+| Decision Type | Project Director | Technical Director | Steering Committee | Advisory Board |
+|---------------|------------------|-------------------|-------------------|----------------|
+| Budget (<₹10 lakhs) | Approve | Recommend | Inform | - |
+| Budget (>₹10 lakhs) | Recommend | Recommend | Approve | Consult |
+| Technical Architecture | Consult | Approve | Inform | Advise |
+| Policy Changes | Recommend | Consult | Approve | Advise |
+| Vendor Selection | Approve | Recommend | Inform | - |
+| Risk Escalation | Manage | Support | Resolve | Advise |
+| Quality Standards | Implement | Define | Approve | Validate |
+
+### Communication Protocols
+
+**Internal Communication:**
+- Daily standups for development teams
+- Weekly progress reports to project leadership
+- Monthly steering committee updates
+- Quarterly comprehensive project reviews
+
+**External Communication:**
+- Monthly stakeholder newsletters
+- Quarterly public progress reports
+- Annual impact assessment publications
+- Real-time system status dashboards
+
+## Performance Management
+
+### Team Performance Metrics
+
+**Individual Level:**
+- Goal achievement and milestone completion
+- Quality of deliverables and technical excellence
+- Collaboration and teamwork effectiveness
+- Innovation and problem-solving contributions
+
+**Team Level:**
+- Project milestone adherence
+- Budget variance and cost management
+- Quality metrics and user satisfaction
+- Risk mitigation effectiveness
+
+**Organizational Level:**
+- Overall project success metrics
+- Stakeholder satisfaction scores
+- System performance and reliability
+- Health impact and ROI achievement
+
+### Capacity Building Strategy
+
+**Technical Skills Development:**
+- Regular training on emerging technologies
+- Certification programs for key technical areas
+- Knowledge sharing sessions and best practices
+- External conference participation and learning
+
+**Leadership Development:**
+- Project management certification programs
+- Cross-functional rotation opportunities
+- Mentoring and coaching programs
+- Strategic thinking and decision-making workshops
+
+**Domain Expertise:**
+- Public health and epidemiology training
+- Community engagement and cultural sensitivity
+- Policy development and advocacy skills
+- Data privacy and security awareness
+
+This governance structure ensures clear accountability, efficient decision-making, and effective stakeholder engagement throughout the project lifecycle.`
+  },
+  {
+    id: "impact-measurement",
+    title: "Impact Measurement and KPIs",
+    content: `# Impact Measurement and KPIs
+
+## Key Performance Indicators Framework
+
+The project success will be measured across four primary dimensions: Health Outcomes, System Performance, User Adoption, and Economic Impact.
+
+## Health Outcome KPIs
+
+### Primary Health Indicators
+
+**Disease Incidence Reduction**
+- **Metric**: Percentage reduction in water-borne disease cases
+- **Baseline**: Current annual incidence rates by district
+- **Target**: 50% reduction by end of Phase 3
+- **Measurement**: Monthly case reports from PHCs and ASHA workers
+- **Data Source**: Integrated health information system
+
+**Outbreak Response Time**
+- **Metric**: Hours from first alert to intervention deployment
+- **Baseline**: Current average of 72-96 hours
+- **Target**: <24 hours for high-risk alerts, <48 hours for medium-risk
+- **Measurement**: Automated system timestamps and field reports
+- **Data Source**: System logs and response team reports
+
+**Mortality Rate Reduction**
+- **Metric**: Percentage reduction in water-borne disease mortality
+- **Baseline**: Current 3.6% average mortality rate
+- **Target**: <2% mortality rate by end of Phase 3
+- **Measurement**: Hospital records and death registrations
+- **Data Source**: Civil registration and vital statistics
+
+### Secondary Health Indicators
+
+**Healthcare Utilization Efficiency**
+- **Metric**: Reduction in emergency hospitalizations
+- **Target**: 40% reduction in severe cases requiring hospitalization
+- **Measurement**: Hospital admission records and severity classifications
+
+**Preventive Care Uptake**
+- **Metric**: Increase in preventive health behaviors
+- **Target**: 60% increase in water treatment adoption
+- **Measurement**: Household surveys and ASHA worker reports
+
+## System Performance KPIs
+
+### Technical Performance
+
+**System Uptime**
+- **Metric**: Percentage of time system is operational
+- **Target**: >99% uptime for critical components, >95% for non-critical
+- **Measurement**: Automated monitoring and alerting systems
+- **Reporting**: Real-time dashboards with historical trends
+
+**Data Quality Score**
+- **Metric**: Completeness and accuracy of collected data
+- **Target**: >95% complete and accurate data
+- **Measurement**: Data validation algorithms and manual audits
+- **Components**: Completeness, accuracy, timeliness, consistency
+
+**Prediction Accuracy**
+- **Metric**: ML model accuracy in outbreak prediction
+- **Target**: >85% accuracy with <15% false positive rate
+- **Measurement**: Retrospective analysis of predictions vs. outcomes
+- **Validation**: Independent expert review and ground truth comparison
+
+### Coverage Metrics
+
+**Geographic Coverage**
+- **Metric**: Percentage of target villages with sensor coverage
+- **Target**: 100% of Phase 1 villages, 80% of Phase 2 districts, 70% of state
+- **Measurement**: GPS mapping and deployment tracking
+
+**Population Coverage**
+- **Metric**: Number of people served by the system
+- **Target**: 500,000+ people by end of Phase 3
+- **Measurement**: Census data and coverage area calculations
+
+## User Adoption KPIs
+
+### ASHA Worker Engagement
+
+**Active User Rate**
+- **Metric**: Percentage of trained ASHA workers actively using the app
+- **Target**: >80% weekly active users
+- **Measurement**: App usage analytics and login tracking
+- **Threshold**: Minimum 3 interactions per week
+
+**Case Reporting Completeness**
+- **Metric**: Percentage of suspected cases reported through the system
+- **Target**: >90% of cases reported digitally
+- **Measurement**: Comparison with traditional paper-based reporting
+
+**User Satisfaction Score**
+- **Metric**: Average user satisfaction rating
+- **Target**: >4.0/5.0 satisfaction score
+- **Measurement**: Quarterly user surveys and feedback forms
+
+### Healthcare Provider Adoption
+
+**Dashboard Usage**
+- **Metric**: Daily active users among PHC doctors and district officers
+- **Target**: >90% of trained healthcare providers using dashboard weekly
+- **Measurement**: Web analytics and user session tracking
+
+**Decision Support Utilization**
+- **Metric**: Percentage of alerts that result in documented action
+- **Target**: >75% of high-risk alerts result in intervention
+- **Measurement**: Action tracking and follow-up reports
+
+## Economic Impact KPIs
+
+### Cost Savings
+
+**Healthcare Cost Reduction**
+- **Metric**: Reduction in treatment costs due to early detection
+- **Target**: ₹425 crores saved over 5 years
+- **Measurement**: Healthcare expenditure analysis and cost-benefit calculations
+
+**Productivity Gains**
+- **Metric**: Reduction in lost workdays due to illness
+- **Target**: 40% reduction in productivity losses
+- **Measurement**: Employer surveys and economic impact studies
+
+### Return on Investment
+
+**Cost-Benefit Ratio**
+- **Metric**: Total benefits divided by total project costs
+- **Target**: >10:1 benefit-to-cost ratio
+- **Measurement**: Comprehensive economic analysis
+
+**Payback Period**
+- **Metric**: Time to recover initial investment through savings
+- **Target**: <12 months from full deployment
+- **Measurement**: Cumulative savings tracking
+
+## Measurement Methodology
+
+### Data Collection Framework
+
+**Automated Data Collection**
+- System performance metrics collected in real-time
+- User behavior analytics through app and web platforms
+- Sensor data quality monitoring and validation
+- Integration with existing health information systems
+
+**Manual Data Collection**
+- Quarterly household surveys in covered areas
+- Semi-annual healthcare provider interviews
+- Annual community focus group discussions
+- Independent third-party evaluations
+
+**Third-Party Validation**
+- Independent evaluation by external public health experts
+- Academic research partnerships for impact assessment
+- Government audit and compliance reviews
+- International peer review and validation
+
+### Reporting Schedule
+
+**Real-Time Dashboards**
+- System performance and user activity metrics
+- Health alert status and response tracking
+- Data quality and coverage indicators
+- Financial performance and budget utilization
+
+**Monthly Reports**
+- Health outcome trends and analysis
+- User adoption and engagement metrics
+- Technical performance summaries
+- Risk assessment and mitigation updates
+
+**Quarterly Reviews**
+- Comprehensive KPI assessment against targets
+- Stakeholder feedback integration and analysis
+- Course correction recommendations
+- Budget variance analysis and projections
+
+**Annual Evaluations**
+- Full impact assessment and ROI analysis
+- External evaluation and independent validation
+- Strategic planning for following year
+- Sustainability assessment and planning
+
+## Success Criteria by Phase
+
+### Phase 1 Success Metrics (6 months)
+- System uptime >95%
+- User adoption >70% among trained ASHA workers
+- Data quality score >90%
+- Positive user feedback (>3.5/5.0)
+- Technical feasibility demonstrated
+
+### Phase 2 Success Metrics (18 months)
+- Disease incidence reduction >25%
+- Response time <48 hours
+- User adoption >80%
+- System coverage 100% of target areas
+- Integration with existing systems completed
+
+### Phase 3 Success Metrics (36 months)
+- Disease incidence reduction >50%
+- Response time <24 hours
+- ROI >10:1
+- Sustainable operational model established
+- Replication framework developed
+
+This comprehensive measurement framework ensures accountability, enables continuous improvement, and demonstrates the project's value to all stakeholders while providing clear evidence of impact and return on investment.`
+  }
+];
+
+export const getSectionById = (id: string): ProposalSection | undefined => {
+  return proposalSections.find(section => section.id === id);
+};
+
+export const getAllSectionIds = (): string[] => {
+  return proposalSections.map(section => section.id);
+};
