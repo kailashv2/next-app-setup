@@ -10,7 +10,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) =
   const renderMarkdown = (text: string) => {
     // Split content into lines for processing
     const lines = text.split('\n');
-    const elements: JSX.Element[] = [];
+    const elements: React.ReactElement[] = [];
     let currentList: string[] = [];
     let inCodeBlock = false;
     let codeBlockContent: string[] = [];
